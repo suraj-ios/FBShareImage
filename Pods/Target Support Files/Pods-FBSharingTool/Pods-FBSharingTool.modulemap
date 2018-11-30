@@ -1,0 +1,6 @@
+framework module Pods_FBSharingTool {
+  umbrella header "Pods-FBSharingTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
