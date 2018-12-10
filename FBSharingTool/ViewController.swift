@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         if let window = UIApplication.shared.keyWindow {
             UIGraphicsBeginImageContextWithOptions(screen.bounds.size, false, 0);
             window.drawHierarchy(in: window.bounds, afterScreenUpdates: false)
-            let image = UIImage(named: "2.jpg")
+            let image = UIImage(named: "ic_2.jpg")
             
             let composeSheet = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
             //composeSheet!.setInitialText("Hello")

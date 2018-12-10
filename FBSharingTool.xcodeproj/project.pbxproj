@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1706C1DB96EE1A54BF1F420D /* Pods_FBSharingTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547CB615B795E9BAFD060778 /* Pods_FBSharingTool.framework */; };
+		440A91B821BBBBB200F2035D /* ic_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 440A91B721BBBBB200F2035D /* ic_2.jpg */; };
 		440FEB1221B19CFC00AA1867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440FEB1121B19CFC00AA1867 /* AppDelegate.swift */; };
 		440FEB1421B19CFC00AA1867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440FEB1321B19CFC00AA1867 /* ViewController.swift */; };
 		440FEB1721B19CFC00AA1867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440FEB1521B19CFC00AA1867 /* Main.storyboard */; };
@@ -15,11 +16,11 @@
 		440FEB1C21B19CFE00AA1867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440FEB1B21B19CFE00AA1867 /* Assets.xcassets */; };
 		440FEB1F21B19CFE00AA1867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440FEB1D21B19CFE00AA1867 /* LaunchScreen.storyboard */; };
 		440FEB2B21B1A71B00AA1867 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440FEB2A21B1A71B00AA1867 /* Social.framework */; };
-		440FEB2D21B1A8A500AA1867 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 440FEB2C21B1A8A400AA1867 /* 2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		163A2473F58ABED6199008FC /* Pods-FBSharingTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBSharingTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBSharingTool/Pods-FBSharingTool.release.xcconfig"; sourceTree = "<group>"; };
+		440A91B721BBBBB200F2035D /* ic_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_2.jpg; sourceTree = "<group>"; };
 		440FEB0E21B19CFC00AA1867 /* FBSharingTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBSharingTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		440FEB1121B19CFC00AA1867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		440FEB1321B19CFC00AA1867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		440FEB2021B19CFE00AA1867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440FEB2621B1A6F000AA1867 /* FBSharingTool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSharingTool-Bridging-Header.h"; sourceTree = "<group>"; };
 		440FEB2A21B1A71B00AA1867 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		440FEB2C21B1A8A400AA1867 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../2.jpg; sourceTree = "<group>"; };
 		4AA1374837C97017D4F4B5A6 /* Pods-FBSharingTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBSharingTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBSharingTool/Pods-FBSharingTool.debug.xcconfig"; sourceTree = "<group>"; };
 		547CB615B795E9BAFD060778 /* Pods_FBSharingTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBSharingTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,8 +85,8 @@
 				440FEB1B21B19CFE00AA1867 /* Assets.xcassets */,
 				440FEB1D21B19CFE00AA1867 /* LaunchScreen.storyboard */,
 				440FEB2021B19CFE00AA1867 /* Info.plist */,
+				440A91B721BBBBB200F2035D /* ic_2.jpg */,
 				440FEB1821B19CFC00AA1867 /* FBSharingTool.xcdatamodeld */,
-				440FEB2C21B1A8A400AA1867 /* 2.jpg */,
 			);
 			path = FBSharingTool;
 			sourceTree = "<group>";
@@ -160,9 +160,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440A91B821BBBBB200F2035D /* ic_2.jpg in Resources */,
 				440FEB1F21B19CFE00AA1867 /* LaunchScreen.storyboard in Resources */,
 				440FEB1C21B19CFE00AA1867 /* Assets.xcassets in Resources */,
-				440FEB2D21B1A8A500AA1867 /* 2.jpg in Resources */,
 				440FEB1721B19CFC00AA1867 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
